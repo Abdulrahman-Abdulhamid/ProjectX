@@ -1,0 +1,8 @@
+@use "../assets/" as *;
+
+.main-navigation {
+  @include flexDisplay(space-around);
+  background-color: $primary;
+  font-size: $navLinks;
+  padding: 1rem 0rem;
+}

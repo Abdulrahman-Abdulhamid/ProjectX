@@ -1,7 +1,14 @@
 import React from "react";
+import { MainNavigation } from "./Layout/MainNavigation";
+import { HeroSection } from "./Components/HeroSection";
 
 const App = (): JSX.Element => {
-  return <div className="App">bood says hello</div>;
+  return (
+    <>
+      <MainNavigation />
+      <HeroSection />
+    </>
+  );
 };
 
 export default App;
